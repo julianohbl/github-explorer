@@ -1,8 +1,11 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-function App() {
-  return <h1>Test</h1>;
-}
+const App: React.FC = () => (
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>
+);
 
 export default App;
