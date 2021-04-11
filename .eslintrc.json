@@ -19,13 +19,13 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
-    "arrow-body-style": [
-      "error",
-      "as-needed",
-      {
-        "requireReturnForObjectLiteral": true
-      }
-    ],
+    // "arrow-body-style": [
+    //   "error",
+    //   "as-needed",
+    //   {
+    //     "requireReturnForObjectLiteral": true
+    //   }
+    // ],
     "no-use-before-define": "off",
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
